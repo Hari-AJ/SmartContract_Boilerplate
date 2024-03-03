@@ -5,8 +5,8 @@ module.exports = {
   solidity: "0.8.19",
   networks: {
     sepolia: {
-      url: 'https://eth-sepolia.g.alchemy.com/v2/lyudugXLCU_jqKiIMdpaSbe8yPNeGED-',
-      accounts: ['33ede857b31390a391413429aae423c6aee28b5521f4c3e8d4e39dd72e394a84'],
+      url: 'https://rpc.cosvm.net',
+      accounts: ['4b71fa940ff8546d18960ed12d22a61dc9eed8a2d12cab1405b9499f8e71d528'],
     },
   },
 };

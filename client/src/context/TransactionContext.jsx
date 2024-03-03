@@ -128,7 +128,11 @@ export const TransactionsProvider = ({ children }) => {
 
         const transactionsCount = await transactionsContract.getTransactionCount();
 
+        console.log(transactionCount);
+f
+
         setTransactionCount(transactionsCount.toNumber());
+        console.log(transactionCount);
         window.location.reload();
       } else {
         console.log("No ethereum object");
